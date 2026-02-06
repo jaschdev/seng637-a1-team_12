@@ -9,28 +9,21 @@
 | Jack Shenfield |
 | Barrett Sapunjis |
 
-
 **Table of Contents**
 
-(When you finish writing, update the following list using right click, then
-“Update Field”)
+[1 Introduction](#introduction)  
 
-[1 Introduction	1](#_Toc439194677)
+[2 High-level description of the exploratory testing plan](#high-level-description-of-the-exploratory-testing-plan)  
 
-[2 High-level description of the exploratory testing plan	1](#_Toc439194678)
+[3 Comparison of exploratory and manual functional testing](#comparison-of-exploratory-and-manual-functional-testing) 
 
-[3 Comparison of exploratory and manual functional testing	1](#_Toc439194679)
+[4 Notes and discussion of the peer reviews of defect reports](#notes-and-discussion-of-the-peer-reviews-of-defect-reports) 
 
-[4 Notes and discussion of the peer reviews of defect reports	1](#_Toc439194680)
+[5 How the pair testing was managed and team work/effort was divided](#how-the-pair-testing-was-managed-and-team-workeffort-was-divided)  
 
-[5 How the pair testing was managed and team work/effort was
-divided	1](#_Toc439194681)
+[6 Difficulties encountered, challenges overcome, and lessons learned](#difficulties-encountered-challenges-overcome-and-lessons-learned)  
 
-[6 Difficulties encountered, challenges overcome, and lessons
-learned	1](#_Toc439194682)
-
-[7 Comments/feedback on the lab and lab document itself	1](#_Toc439194683)
-
+[7 Comments/feedback on the lab and lab document itself](#commentsfeedback-on-the-lab-and-lab-document-itself)
 # Introduction
 
 This lab focused on introducing fundamental software testing concepts through hands-on testing of a simulated ATM system and the use of industry standard defect tracking tools. The primary goal was to gain practical experience with exploratory testing, manual scripted testing, and regression testing, while learning how to effectively document and track defects throughout multiple iterations of a software system.
@@ -112,7 +105,7 @@ In total 34 unique bugs were found in version 1.0, with 8 of them remaining in v
 
 The peer reviews made us realize the depth in which we need to describe the bug and how to repeat it. As you work with the software and a specific module, you begin to understand it intuitively and start to see the individual components. But when you don’t have this background and read another bug report, sometimes it is difficult to repeat or understand. For some of the bugs, we found we needed to change the wording or add more information. 
 
-We also noticed some duplications in the bug reports. While we each had our own modules to test, the exploratory testing allowed for freedom and “extra testing” per individual. This caused some people to find bugs in other people’s modules which then got duplicated. Additionally, exploratory testing often uncovered bugs that would be found through scripted testing. When the scripted tests were completed, more duplications were made. This is largely due to the wording used in each report. Although the descriptions of duplicate bugs may be similar in sentiment, the actual words may not match. By the time the final bugs are being added, it can’t be expected that the testers will memorize all the previous bugs being entered. Nor is it feasible to deterministically search the titles or descriptions and match them to one another. To work around this, we simply applied more manual labor in checking the previous bug descriptions before adding a new one. This worked quite well and was then further supported by the use of an LLM for pure feedback.  
+We also noticed some duplications in the bug reports. While we each had our own modules to test, the exploratory testing allowed for freedom and “extra testing” per individual. This caused some people to find bugs in other people’s modules which then got duplicated. Additionally, exploratory testing often uncovered bugs that would be found through scripted testing. When the scripted tests were completed, more duplications were made. This is largely due to the wording used in each report. Although the descriptions of duplicate bugs may be similar in sentiment, the actual words may not match. By the time the final bugs are being added, it can’t be expected that the testers will memorize all the previous bugs being entered. Nor is it feasible to deterministically search the titles or descriptions and match them to one another. To work around this, we simply applied more manual labor in checking the previous bug descriptions before adding a new one. This worked quite well and was then further supported by the use of an LLM for checking while reviewing.
 
 # How the pair testing was managed and team work/effort was divided 
 
